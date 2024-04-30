@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 메뉴판 체크박스 형태로 만들어서 step-7.jsp로 전송 -->
+	<!-- step-7.jsp에서 주문자명 어떤 메뉴를 주문했는지 출력 -->
+	<form action="step-7.jsp">
+		주문자명 : <input type="text" name="customer"> <br>
+		<input type="checkbox" name="burger" value="불고기버거"> 불고기버거 <br>
+		<input type="checkbox" name="burger" value="치즈버거"> 치즈버거 <br>
+		<input type="checkbox" name="burger" value="새우버거"> 새우버거 <br>
+		<input type="checkbox" name="burger" value="슈슈버거"> 슈슈버거 <br>
+		<input type="checkbox" name="burger" value="데리버거"> 데리버거 <br>
+		<button type="submit">전송</button>
+	</form>
+</body>
+</html>

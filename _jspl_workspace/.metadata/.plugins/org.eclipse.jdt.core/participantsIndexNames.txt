@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\jungon\_jspl_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1412209586.index
+\jstl_study\src\main\java
+D:\jungon\_jspl_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1325126777.index
+\jstl_study\src\main\java

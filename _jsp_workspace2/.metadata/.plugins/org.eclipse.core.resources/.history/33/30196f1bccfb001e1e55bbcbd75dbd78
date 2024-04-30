@@ -1,0 +1,13 @@
+package repository;
+
+import domain.memberVO;
+
+public interface MemberDAO {
+
+	int insert(memberVO mvo);
+
+	memberVO login(memberVO mvo);
+
+	int lastLogin(String id);
+
+}
